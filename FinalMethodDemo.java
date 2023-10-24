@@ -5,10 +5,13 @@ class Base
 
     public void fun()
     {
+        final int iNo=10; //we can also create final variable
+        //iNo++;
         System.out.println("Inside Base fun...");
     }
-    public final void gun()
+    public  final void gun()
     {
+        
         System.out.println("Inside Base gun...");
     }
 }
