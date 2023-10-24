@@ -1,16 +1,24 @@
 abstract class Base
 {
-   public int X;
+   public int X;    //non static characterstic
+   public static int Y;   //static characterstics
 
-   public Base()
+   static
+   {
+       System.out.println("Inside static block");
+       Y=20;
+   }
+
+   public Base()   //abstract class contain constructor also to initialise non static characterstic  
    {
       this.X=20;
       System.out.println("Inside Base Constructor....");
    }
-   public void fun()
+   public void fun()  //abstract class contain concreat method also
    {
        System.out.println("Inside Base fun...");
        System.out.println("Value of X is :"+this.X);
+        System.out.println("Value of Y is :"+Y);
    }
    public abstract void gun();
 }

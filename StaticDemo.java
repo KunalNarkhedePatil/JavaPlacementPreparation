@@ -24,7 +24,7 @@ class Demo
     public void fun()
     {
         System.out.println("Value of X :"+this.X);  //Allowed
-        System.out.println("Value of Y :"+Y); //Allowed
+        System.out.println("Value of Y :"+Demo.Y); //Allowed
     }
     //static method only access static characterstic
     public static void gun()
