@@ -21,7 +21,7 @@ class Derived extends Base
    }
    public void gun()
    {
-        System.out.println("Inside Derived fun...");
+        System.out.println("Inside Derived gun...");
    }
 }
 class DerivedX extends Derived
